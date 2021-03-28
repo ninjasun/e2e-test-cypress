@@ -14,5 +14,8 @@ describe('List item behaviur', () => {
       //.click({ force: true })
       .invoke('show')
       .click()
+
+    cy.wait('@delete')
+    cy.get('.todo-list li').should('have.length', 3)
   })
 })
