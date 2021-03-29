@@ -2,8 +2,8 @@
   "todos": [
     {
       "id": 1,
-      "name": "Buy Milk",
-      "isComplete": false
+      "isComplete": true,
+      "name": "Capra"
     },
     {
       "id": 2,
